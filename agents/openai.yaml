@@ -1,0 +1,6 @@
+interface:
+  display_name: "建筑环境绘图引导"
+  short_description: "引导建筑、景观与室内效果图：对齐条件、推演空间与机位、生成并审图"
+  default_prompt: "letsrendering（也支持 letsrender）。使用 $guided-environment-rendering，先理解任务和关键条件；空间任务依次推演使用行为、布局、机位与平剖面底稿，分配参考角色并审查后按授权生成、审图。局部小改复用已有底稿，关键决定才询问；只写prompt或暂不出图时遵守限制。"
+policy:
+  allow_implicit_invocation: true
